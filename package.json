@@ -1,0 +1,27 @@
+{
+  "name": "new_ed1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "yarn lerna run build",
+    "dev": "yarn lerna run dev",
+    "publish": "yarn build && yarn lerna run publish",
+    "commit": "cz",
+    "prepare": "husky install",
+    "build:storybook": "yarn build && yarn lerna run build-storybook"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.5",
+    "lerna": "^6.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "private": true
+}
