@@ -1,0 +1,174 @@
+/*
+ * This is global SCSS.
+ * Please use this as less as possible.
+ * Using this SCSS makes code non-reusable.
+ */
+
+html {
+  width: 100%;
+  height: 100%;
+  body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+
+:global(#root) {
+  width: 100%;
+  height: 100%;
+}
+
+:global(.no-select) {
+  /**
+   * @fixme
+   * Following properties are not standard.
+   */
+  /** iOS Safari */
+  -webkit-touch-callout: none;
+  /** Safari */
+  -webkit-user-select: none;
+  /** Konqueror HTML */
+  -khtml-user-select: none;
+  /** Firefox */
+  -moz-user-select: none;
+  /** Internet Explorer/Edge */
+  -ms-user-select: none;
+  /**
+   * Non-prefixed version, currently
+   * supported by Chrome and Opera
+   */
+  user-select: none;
+}
+.__ol-realtime-measurement-tooltip-base {
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2f2f2f;
+
+  padding: 7px;
+  border-radius: 2px;
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.48);
+  background-color: #ffffffe6;
+}
+:global(.__ol-realtime-measurement-tooltip) {
+  @extend .__ol-realtime-measurement-tooltip-base;
+}
+
+:global(.__ol-realtime-measurement-tooltip-length) {
+  @extend .__ol-realtime-measurement-tooltip-base;
+  padding: 0px;
+  div {
+    display: flex;
+    figure {
+      display: flex;
+    }
+    p {
+      display: inline;
+      &:first-child {
+        padding-right: 4px;
+      }
+    }
+  }
+}
+
+@keyframes rotation-animation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.__ol-loading-tooltip-base {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 80px;
+  height: 27px;
+
+  svg {
+    transform-origin: center;
+
+    width: 20px;
+    height: 20px;
+
+    animation-name: rotation-animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+}
+
+:global(.__ol-loading-tooltip) {
+  @extend .__ol-loading-tooltip-base;
+}
+
+:global(.__ol-loading-tooltip-small) {
+  @extend .__ol-loading-tooltip-base;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  svg {
+    width: 13px;
+    height: 13px;
+  }
+}
+
+:global(.__ol-hide-measurement-box) {
+  display: none;
+}
+
+/**
+ * Webpack does not know how to resolve correctly to this css
+ */
+// @import '../../../node_modules/cesium/Build/Cesium/Widgets/widgets.css';
+:global(.cesium-viewer), :global(.cesium-viewer-cesiumWidgetContainer), :global(.cesium-widget) {
+  height: 100%;
+  width: 100%;
+  canvas {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+:global(.cesium-viewer) {
+  touch-action: none;
+  canvas {
+    touch-action: none;
+  }
+}
+
+:global(.not-allowed) {
+  cursor: not-allowed !important;
+}
+
+:global(.tippy-box[data-theme~='angelsw']) {
+  border-radius: 2px;
+
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+
+  font-size: 12px;
+
+  padding: 0px;
+}
+
+:global(.ch-desk-messenger) {
+  margin-right: 60px;
+  margin-bottom: 15px;
+}
+
+:global(.FullScreenPushMessagestyled__Wrapper-nxoc25-13) {
+  margin-bottom: 25px;
+  margin-right: -13px;
+}
