@@ -1,27 +1,54 @@
 {
-  "name": "new_ed1",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "workspaces": [
-    "packages/*"
-  ],
-  "scripts": {
-    "build": "yarn lerna run build",
-    "dev": "yarn lerna run dev",
-    "publish": "yarn build && yarn lerna run publish",
-    "commit": "cz",
-    "prepare": "husky install",
-    "build:storybook": "yarn build && yarn lerna run build-storybook"
-  },
-  "devDependencies": {
-    "commitizen": "^4.2.5",
-    "lerna": "^6.0.0"
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  },
-  "private": true
+ "name": "new_ed1",
+ "version": "1.0.0",
+ "main": "index.js",
+ "license": "MIT",
+ "workspaces": [
+  "packages/*"
+ ],
+ "scripts": {
+  "build": "yarn lerna run build",
+  "dev": "yarn lerna run dev",
+  "publish": "yarn build && yarn lerna run publish",
+  "commit": "cz",
+  "tsc": "lerna run tsc",
+  "lint:fix": "lerna run lint:fix",
+  "eslint": "lerna run eslint",
+  "format": "prettier --write .",
+  "postinstall": "husky install",
+  "build:storybook": "yarn build && yarn lerna run build-storybook"
+ },
+ "devDependencies": {
+  "@typescript-eslint/eslint-plugin": "^5.42.0",
+  "@typescript-eslint/parser": "^5.42.0",
+  "commitizen": "^4.2.5",
+  "eslint": "^8.27.0",
+  "eslint-config-prettier": "^8.5.0",
+  "eslint-config-standard-with-typescript": "^23.0.0",
+  "eslint-plugin-import": "^2.26.0",
+  "eslint-plugin-n": "^15.5.0",
+  "eslint-plugin-prettier": "^4.2.1",
+  "eslint-plugin-promise": "^6.1.1",
+  "eslint-plugin-react": "^7.31.10",
+  "husky": "^8.0.1",
+  "install": "^0.13.0",
+  "lerna": "^6.0.0",
+  "prettier": "^2.7.1"
+ },
+ "config": {
+  "commitizen": {
+   "path": "cz-conventional-changelog"
+  }
+ },
+ "husky": {
+  "hooks": {
+   "pre-commit": "lint-staged"
+  }
+ },
+ "lint-staged": {
+  "**/*": "yarn eslint && yarn format"
+ },
+ "private": true,
+ "repository": "git@github.com-work_user1:bholathapa7/new_ed1.git",
+ "author": "<bhola.thapa@angelswing.io>"
 }

@@ -1,13 +1,13 @@
 {
-  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
-  "useWorkspaces": true,
-  "version": "0.0.0",
-  "npmClient": "yarn",
-  "stream": true,
-  "packages": ["packages/*"],
-  "command": {
-    "publish": {
-      "conventionalCommits": true
-    }
+ "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+ "useWorkspaces": true,
+ "version": "0.0.0",
+ "npmClient": "yarn",
+ "stream": true,
+ "packages": ["packages/*"],
+ "command": {
+  "publish": {
+   "conventionalCommits": true
   }
+ }
 }
