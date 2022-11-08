@@ -1,0 +1,10 @@
+parser:
+  '@typescript-eslint/parser'
+
+parserOptions:
+  project: './tsconfig.json'
+
+extends:
+  - ../../config/eslint/base/eslint.standard.yml
+  - ../../config/eslint/base/eslint.typescript.yml
+  - ../../config/eslint/base/eslint.import.yml

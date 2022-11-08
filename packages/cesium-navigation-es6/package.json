@@ -1,0 +1,30 @@
+{
+  "version": "2.30.1",
+  "author": {
+    "name": "richard"
+  },
+  "bugs": {
+    "url": "https://github.com/richard1015/cesium-navigation-es6/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "hammerjs": "^2.0.8",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "markdown-it": "^8.4.2",
+    "markdown-it-sanitizer": "^0.4.3"
+  },
+  "deprecated": false,
+  "description": "cesium-navigation-es6",
+  "homepage": "https://github.com/richard1015/cesium-navigation-es6#readme",
+  "keywords": [
+    "cesium-navigation"
+  ],
+  "license": "ISC",
+  "main": "viewerCesiumNavigationMixin.js",
+  "name": "@angelsw/cesium-navigation-es6",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richard1015/cesium-navigation-es6.git"
+  }
+}
