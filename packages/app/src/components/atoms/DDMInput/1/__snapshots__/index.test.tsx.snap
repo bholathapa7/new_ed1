@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DDMInput should have valid style for error state 1`] = `
+<DocumentFragment>
+  .c0 {
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  padding: 0 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: normal;
+  color: rgb(102,102,102);
+  border-color: rgb(252,74,74);
+}
+
+.c0::-webkit-input-placeholder {
+  color: rgb(153,153,153);
+}
+
+.c0::-moz-placeholder {
+  color: rgb(153,153,153);
+}
+
+.c0:-ms-input-placeholder {
+  color: rgb(153,153,153);
+}
+
+.c0::placeholder {
+  color: rgb(153,153,153);
+}
+
+<input
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`DDMInput should have valid style for errorless state 1`] = `
+<DocumentFragment>
+  .c0 {
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  padding: 0 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: normal;
+  color: rgb(102,102,102);
+  border-color: rgb(219,219,219);
+}
+
+.c0::-webkit-input-placeholder {
+  color: rgb(153,153,153);
+}
+
+.c0::-moz-placeholder {
+  color: rgb(153,153,153);
+}
+
+.c0:-ms-input-placeholder {
+  color: rgb(153,153,153);
+}
+
+.c0::placeholder {
+  color: rgb(153,153,153);
+}
+
+<input
+    class="c0"
+  />
+</DocumentFragment>
+`;

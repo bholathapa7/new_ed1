@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorBoundary should match with the snapshot 1`] = `
+<DocumentFragment>
+  Normal Text
+</DocumentFragment>
+`;
+
+exports[`ErrorBoundary should render error display when an error occurs 1`] = `[Function]`;

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="104px" height="56px" viewBox="0 0 105 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Stage-4---UI-Changes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Stage-4---Slider" transform="translate(-798.000000, -479.000000)">
+            <g id="Group-8" transform="translate(798.736842, 479.000000)">
+                <path d="M28,0 L76,0 C91.463973,-2.84068575e-15 104,12.536027 104,28 C104,43.463973 91.463973,56 76,56 L28,56 C12.536027,56 1.8937905e-15,43.463973 0,28 C-1.8937905e-15,12.536027 12.536027,2.84068575e-15 28,0 Z" id="Rectangle-7" fill-opacity="0.766089379" fill="var(--color-theme-primary-lighter)" fill-rule="nonzero"></path>
+                <g id="Group-5" transform="translate(31.503158, 20.500000)">
+                    <g id="Small-Arrow-Use" transform="translate(36.000000, 7.500000) scale(-1, 1) translate(-36.000000, -7.500000) translate(31.000000, 0.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                        <polygon id="Path-49" points="8.125 0 10 1.875 4.375 7.5 10 13.125 8.125 15 0.625 7.5"></polygon>
+                    </g>
+                    <g id="Small-Arrow-Use" fill="#FFFFFF" fill-rule="nonzero">
+                        <polygon id="Path-49" points="8.125 0 10 1.875 4.375 7.5 10 13.125 8.125 15 0.625 7.5"></polygon>
+                    </g>
+                    <line x1="5.5" y1="7.5" x2="36.5" y2="7.5" id="Line" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

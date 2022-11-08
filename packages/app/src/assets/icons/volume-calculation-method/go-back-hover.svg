@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+    <g fill="none">
+        <path fill="var(--color-theme-primary)" d="M10 0c5.523 0 10 4.477 10 10s-4.477 10-10 10S0 15.523 0 10 4.477 0 10 0z" transform="translate(.51 .77)"/>
+        <path fill="#FFF" d="M8.62 6.433l.884.884-2.058 2.057 7.627.001v1.25H7.446l2.058 2.058-.883.884L5.054 10 8.62 6.433z" transform="translate(.51 .77)"/>
+    </g>
+</svg>

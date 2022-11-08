@@ -1,0 +1,989 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoticePopup should show unread notices 1`] = `
+<DocumentFragment>
+  .c4 {
+  width: 347px;
+  opacity: 0.95;
+  border-radius: 5px;
+  background-color: rgb(255,255,255);
+  margin-left: 24.5px;
+  margin-right: 24.5px;
+  margin-bottom: 7.5px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c6 {
+  width: 23px;
+  height: 17px;
+}
+
+.c5 {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 22px 1px 19.5px 22px;
+  background-color: rgb(31,71,130);
+  border-radius: 100%;
+}
+
+.c7 {
+  padding-left: 17px;
+  margin-top: 15.5px;
+  width: 257px;
+}
+
+.c10 {
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  border-radius: 100%;
+  background-color: rgb(232,130,133);
+}
+
+.c8 {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c9 {
+  color: rgb(102,102,102);
+  line-height: 1.44;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.c12 {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  line-height: 1.44;
+}
+
+.c13 {
+  color: rgb(102,102,102);
+  font-size: 12px;
+}
+
+.c14 {
+  list-style-type: none;
+}
+
+.c15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 5px;
+  margin-top: 6px;
+  margin-bottom: 17px;
+  cursor: pointer;
+}
+
+.c11 {
+  width: 29px;
+  height: 29px;
+  border-radius: 100%;
+  margin-left: 15px;
+  margin-bottom: 6px;
+  padding-right: 1px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c11:hover {
+  border-radius: 100%;
+  background-color: rgb(198,217,235);
+}
+
+.c16 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.44;
+  color: rgb(43,72,119);
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  text-underline-offset: 1px;
+  padding: 6px 10px 6px 18px;
+  border-radius: 4px;
+}
+
+.c16:hover {
+  background-color: rgb(233,233,233);
+}
+
+.c17 {
+  margin-top: 3px;
+  margin-left: 6px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  right: 35px;
+  margin-top: 7px;
+  max-height: 360px;
+  border-radius: 6px;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  background-color: rgba(255,255,255,0.78);
+  box-shadow: 0 1px 8px 0 rgba(0,0,0,0.2),0 3px 4px 0 rgba(0,0,0,0.18),0 3px 3px 0 rgba(0,0,0,0.16);
+}
+
+.c1 {
+  overflow: auto;
+}
+
+.c1::-webkit-scrollbar {
+  width: 8px;
+}
+
+.c1::-webkit-scrollbar-thumb {
+  background: #7186A4;
+  border-radius: 5px;
+}
+
+.c1::-webkit-scrollbar-thumb:hover {
+  background: #2A5087;
+}
+
+.c2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  width: 100%;
+  padding-top: 22px;
+  padding-bottom: 16px;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <div
+          class="c3"
+        >
+           
+          <div
+            class="c4"
+          >
+            <div
+              class="c5"
+            >
+              <div
+                class="c6"
+              >
+                <svg />
+              </div>
+            </div>
+            <div
+              class="c7"
+            >
+              <div
+                class="c8"
+              >
+                <p
+                  class="c9"
+                >
+                  플랫폼 ver37.1.2 업데이트
+                </p>
+                <div
+                  class="c10"
+                  data-testid="notice-item-unread"
+                />
+                <span
+                  class="c11"
+                  data-testid="notice-item-hide"
+                >
+                  <svg />
+                </span>
+              </div>
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                >
+                  플랫폼이 ver37.1.2으로 업데이트되었습니다.
+                </div>
+                <ul
+                  class="c14"
+                >
+                  <li
+                    class="c13"
+                    data-testid="notice-item-content"
+                  >
+                    1. 오늘은 2019년 10월 28일
+                  </li>
+                  <li
+                    class="c13"
+                    data-testid="notice-item-content"
+                  >
+                    2. 내일은 2019년 10월 29일
+                  </li>
+                  <li
+                    class="c13"
+                    data-testid="notice-item-content"
+                  >
+                    3. 좀 있으면 11월
+                  </li>
+                </ul>
+                <div
+                  class="c15"
+                >
+                  <div
+                    class="c16"
+                  >
+                    더 알아보기
+                    <span
+                      class="c17"
+                    >
+                      <svg />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c4"
+          >
+            <div
+              class="c5"
+            >
+              <div
+                class="c6"
+              >
+                <svg />
+              </div>
+            </div>
+            <div
+              class="c7"
+            >
+              <div
+                class="c8"
+              >
+                <p
+                  class="c9"
+                >
+                  플랫폼 ver29.2.7 업데이트
+                </p>
+                <div
+                  class="c10"
+                  data-testid="notice-item-unread"
+                />
+                <span
+                  class="c11"
+                  data-testid="notice-item-hide"
+                >
+                  <svg />
+                </span>
+              </div>
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                >
+                  플랫폼이 ver29.2.7으로 업데이트되었습니다.
+                </div>
+                <ul
+                  class="c14"
+                >
+                  <li
+                    class="c13"
+                    data-testid="notice-item-content"
+                  >
+                    1. 고양이
+                  </li>
+                  <li
+                    class="c13"
+                    data-testid="notice-item-content"
+                  >
+                    2. 강아지
+                  </li>
+                  <li
+                    class="c13"
+                    data-testid="notice-item-content"
+                  >
+                    3. 얼룩말
+                  </li>
+                </ul>
+                <div
+                  class="c15"
+                >
+                  <div
+                    class="c16"
+                  >
+                    더 알아보기
+                    <span
+                      class="c17"
+                    >
+                      <svg />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c4"
+          >
+            <div
+              class="c5"
+            >
+              <div
+                class="c6"
+              >
+                <svg />
+              </div>
+            </div>
+            <div
+              class="c7"
+            >
+              <div
+                class="c8"
+              >
+                <p
+                  class="c9"
+                >
+                  플랫폼 ver16.8.1 업데이트
+                </p>
+                <span
+                  class="c11"
+                  data-testid="notice-item-hide"
+                >
+                  <svg />
+                </span>
+              </div>
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                >
+                  플랫폼이 ver16.8.1으로 업데이트되었습니다.
+                </div>
+                <ul
+                  class="c14"
+                >
+                  <li
+                    class="c13"
+                    data-testid="notice-item-content"
+                  >
+                    1. 시간여행 가능
+                  </li>
+                  <li
+                    class="c13"
+                    data-testid="notice-item-content"
+                  >
+                    2. 드론 자가용으로 사용 가능
+                  </li>
+                  <li
+                    class="c13"
+                    data-testid="notice-item-content"
+                  >
+                    3. 엔젤스윙 흑백모드 출시
+                  </li>
+                </ul>
+                <div
+                  class="c15"
+                >
+                  <div
+                    class="c16"
+                  >
+                    더 알아보기
+                    <span
+                      class="c17"
+                    >
+                      <svg />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`NoticePopup should show unshown notifications 1`] = `
+<DocumentFragment>
+  .c4 {
+  width: 347px;
+  opacity: 0.95;
+  border-radius: 5px;
+  background-color: rgb(255,255,255);
+  margin-left: 24.5px;
+  margin-right: 24.5px;
+  margin-bottom: 7.5px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c6 {
+  width: 23px;
+  height: 17px;
+}
+
+.c5 {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 22px 1px 19.5px 22px;
+  background-color: rgb(31,71,130);
+  border-radius: 100%;
+}
+
+.c7 {
+  padding-left: 17px;
+  margin-top: 15.5px;
+  width: 257px;
+}
+
+.c10 {
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  border-radius: 100%;
+  background-color: rgb(232,130,133);
+}
+
+.c8 {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c9 {
+  color: rgb(102,102,102);
+  line-height: 1.44;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.c12 {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  line-height: 1.44;
+}
+
+.c13 {
+  color: rgb(102,102,102);
+  font-size: 12px;
+}
+
+.c14 {
+  list-style-type: none;
+}
+
+.c15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 5px;
+  margin-top: 6px;
+  margin-bottom: 17px;
+  cursor: pointer;
+}
+
+.c11 {
+  width: 29px;
+  height: 29px;
+  border-radius: 100%;
+  margin-left: 15px;
+  margin-bottom: 6px;
+  padding-right: 1px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c11:hover {
+  border-radius: 100%;
+  background-color: rgb(198,217,235);
+}
+
+.c16 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.44;
+  color: rgb(43,72,119);
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  text-underline-offset: 1px;
+  padding: 6px 10px 6px 18px;
+  border-radius: 4px;
+}
+
+.c16:hover {
+  background-color: rgb(233,233,233);
+}
+
+.c17 {
+  margin-top: 3px;
+  margin-left: 6px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  right: 35px;
+  margin-top: 7px;
+  max-height: 360px;
+  border-radius: 6px;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  background-color: rgba(255,255,255,0.78);
+  box-shadow: 0 1px 8px 0 rgba(0,0,0,0.2),0 3px 4px 0 rgba(0,0,0,0.18),0 3px 3px 0 rgba(0,0,0,0.16);
+}
+
+.c1 {
+  overflow: auto;
+}
+
+.c1::-webkit-scrollbar {
+  width: 8px;
+}
+
+.c1::-webkit-scrollbar-thumb {
+  background: #7186A4;
+  border-radius: 5px;
+}
+
+.c1::-webkit-scrollbar-thumb:hover {
+  background: #2A5087;
+}
+
+.c2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  width: 100%;
+  padding-top: 22px;
+  padding-bottom: 16px;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <div
+          class="c3"
+        >
+           
+          <div
+            class="c4"
+          >
+            <div
+              class="c5"
+            >
+              <div
+                class="c6"
+              >
+                <svg />
+              </div>
+            </div>
+            <div
+              class="c7"
+            >
+              <div
+                class="c8"
+              >
+                <p
+                  class="c9"
+                >
+                  플랫폼 ver37.1.2 업데이트
+                </p>
+                <div
+                  class="c10"
+                  data-testid="notice-item-unread"
+                />
+                <span
+                  class="c11"
+                  data-testid="notice-item-hide"
+                >
+                  <svg />
+                </span>
+              </div>
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                >
+                  플랫폼이 ver37.1.2으로 업데이트되었습니다.
+                </div>
+                <ul
+                  class="c14"
+                >
+                  <li
+                    class="c13"
+                    data-testid="notice-item-content"
+                  >
+                    1. 오늘은 2019년 10월 28일
+                  </li>
+                  <li
+                    class="c13"
+                    data-testid="notice-item-content"
+                  >
+                    2. 내일은 2019년 10월 29일
+                  </li>
+                  <li
+                    class="c13"
+                    data-testid="notice-item-content"
+                  >
+                    3. 좀 있으면 11월
+                  </li>
+                </ul>
+                <div
+                  class="c15"
+                >
+                  <div
+                    class="c16"
+                  >
+                    더 알아보기
+                    <span
+                      class="c17"
+                    >
+                      <svg />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c4"
+          >
+            <div
+              class="c5"
+            >
+              <div
+                class="c6"
+              >
+                <svg />
+              </div>
+            </div>
+            <div
+              class="c7"
+            >
+              <div
+                class="c8"
+              >
+                <p
+                  class="c9"
+                >
+                  플랫폼 ver29.2.7 업데이트
+                </p>
+                <div
+                  class="c10"
+                  data-testid="notice-item-unread"
+                />
+                <span
+                  class="c11"
+                  data-testid="notice-item-hide"
+                >
+                  <svg />
+                </span>
+              </div>
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                >
+                  플랫폼이 ver29.2.7으로 업데이트되었습니다.
+                </div>
+                <ul
+                  class="c14"
+                >
+                  <li
+                    class="c13"
+                    data-testid="notice-item-content"
+                  >
+                    1. 고양이
+                  </li>
+                  <li
+                    class="c13"
+                    data-testid="notice-item-content"
+                  >
+                    2. 강아지
+                  </li>
+                  <li
+                    class="c13"
+                    data-testid="notice-item-content"
+                  >
+                    3. 얼룩말
+                  </li>
+                </ul>
+                <div
+                  class="c15"
+                >
+                  <div
+                    class="c16"
+                  >
+                    더 알아보기
+                    <span
+                      class="c17"
+                    >
+                      <svg />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c4"
+          >
+            <div
+              class="c5"
+            >
+              <div
+                class="c6"
+              >
+                <svg />
+              </div>
+            </div>
+            <div
+              class="c7"
+            >
+              <div
+                class="c8"
+              >
+                <p
+                  class="c9"
+                >
+                  플랫폼 ver16.8.1 업데이트
+                </p>
+                <span
+                  class="c11"
+                  data-testid="notice-item-hide"
+                >
+                  <svg />
+                </span>
+              </div>
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                >
+                  플랫폼이 ver16.8.1으로 업데이트되었습니다.
+                </div>
+                <ul
+                  class="c14"
+                >
+                  <li
+                    class="c13"
+                    data-testid="notice-item-content"
+                  >
+                    1. 시간여행 가능
+                  </li>
+                  <li
+                    class="c13"
+                    data-testid="notice-item-content"
+                  >
+                    2. 드론 자가용으로 사용 가능
+                  </li>
+                  <li
+                    class="c13"
+                    data-testid="notice-item-content"
+                  >
+                    3. 엔젤스윙 흑백모드 출시
+                  </li>
+                </ul>
+                <div
+                  class="c15"
+                >
+                  <div
+                    class="c16"
+                  >
+                    더 알아보기
+                    <span
+                      class="c17"
+                    >
+                      <svg />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

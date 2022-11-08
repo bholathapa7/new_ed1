@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="17px" viewBox="0 0 27 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.1 (89650) - https://sketch.com -->
+    <title>DBN</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="13.0592117 0 0 8.5 13.0592117 17 26 8.5"></polygon>
+    </defs>
+    <g id="DBVC-V2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="New-Upload-with-design-surface" transform="translate(-759.000000, -517.000000)">
+            <g id="DBN" transform="translate(759.500000, 517.000000)">
+                <g id="Group-3">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Path-5" fill="#299DD2" xlink:href="#path-1"></use>
+                    <path d="M8.35388332,14.2838234 C10.7418764,10.8852291 13.0469732,8.4655918 15.2691737,7.02491161 C17.4913743,5.58423142 19.8235117,4.99749215 22.2655861,5.2646938" id="Line-10" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="square" mask="url(#mask-2)" transform="translate(15.309735, 9.742905) rotate(-1.044158) translate(-15.309735, -9.742905) "></path>
+                    <path d="M3.7579939,10.7577448 C6.15127547,7.40522197 8.20956945,5.1864382 9.93287582,4.10139344 C11.6561822,3.01634869 14.0978882,2.40177255 17.2579939,2.25766503" id="Line-10" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="square" mask="url(#mask-2)" transform="translate(10.507994, 6.507705) rotate(-1.804266) translate(-10.507994, -6.507705) "></path>
+                    <path d="M3.97682005,5.2380192 C6.30551584,5.12282586 8.78435663,5.96998978 11.4133424,7.77951095 C14.0423282,9.58903213 16.1333849,11.8873117 17.6865125,14.6743497" id="Line-10" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="square" mask="url(#mask-2)" transform="translate(10.831666, 9.951014) rotate(-0.539492) translate(-10.831666, -9.951014) "></path>
+                    <path d="M7.98435451,1.23686817 C11.0327495,1.54976673 13.8709457,2.64458688 16.4989432,4.52132862 C19.1269408,6.39807036 21.1122752,8.74789626 22.4549465,11.5708063" id="Line-10" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="square" mask="url(#mask-2)" transform="translate(15.219651, 6.403837) rotate(-1.531912) translate(-15.219651, -6.403837) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

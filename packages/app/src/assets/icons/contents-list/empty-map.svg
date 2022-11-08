@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="159" height="71" viewBox="0 0 159 71">
+    <defs>
+        <path id="prefix__a" d="M0 70L158.958 70 158.958 0.764 0 0.764z"/>
+        <path id="prefix__c" d="M8.984 9.871L0.213 9.871 4.599 25.683 23.856 20.702 20.115 1.89 8.984 0.942z"/>
+        <path id="prefix__e" d="M1.459 9.493V.564v8.929z"/>
+        <linearGradient id="prefix__f" x1="49.998%" x2="50.098%" y1="50.002%" y2="50.002%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#231714"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(0 .236)">
+            <path stroke="#CCC" stroke-width="4.95" d="M44.1 67.525L6.349 67.525 25.225 42.013 35.663 56.122M0 67.525L148.753 67.525"/>
+            <path fill="#CCC" d="M156.483 65.05c1.367 0 2.475 1.108 2.475 2.475 0 1.366-1.108 2.474-2.475 2.474s-2.475-1.108-2.475-2.474c0-1.367 1.108-2.475 2.475-2.475"/>
+            <path stroke="#CCC" stroke-width="4.95" d="M27.644 67.525L58.545 26.706 89.446 67.525z"/>
+            <mask id="prefix__b" fill="#fff">
+                <use xlink:href="#prefix__a"/>
+            </mask>
+            <path stroke="#CCC" stroke-width="4.95" d="M146.278 23.648L156.483 23.648 156.483 13.443 146.278 13.443zM95.254 18.546L125.868 18.546 125.868 8.341 95.254 8.341zM125.868 23.648L146.278 23.648 146.278 3.238 125.868 3.238zM58.546 19.052L72.577 19.052 72.577 8.847 58.546 8.847zM58.545 26.706L58.545 19.052M25.224 34.359L39.256 34.359 39.256 24.154 25.224 24.154zM25.225 42.013L25.225 34.359M130.97 67.525L141.175 67.525 141.175 23.648 130.97 23.648zM130.422 24.561L141.725 35.864M130.422 39.935L141.725 51.238M130.422 55.309L141.725 66.612M47.779 57.619L64.362 57.619" mask="url(#prefix__b)"/>
+            <path fill="#CCC" d="M69.312 55.151c1.367 0 2.475 1.108 2.475 2.475s-1.108 2.475-2.475 2.475-2.475-1.108-2.475-2.475 1.108-2.475 2.475-2.475" mask="url(#prefix__b)"/>
+        </g>
+        <g transform="translate(94 24.236)">
+            <mask id="prefix__d" fill="#fff">
+                <use xlink:href="#prefix__c"/>
+            </mask>
+            <path stroke="#CCC" stroke-width="4.95" d="M17.837 9.871c0 3.522-2.855 6.378-6.378 6.378-3.522 0-6.378-2.856-6.378-6.378 0-3.522 2.856-6.378 6.378-6.378 3.523 0 6.378 2.856 6.378 6.378z" mask="url(#prefix__d)"/>
+        </g>
+        <g transform="translate(104 18.236)">
+            <mask id="prefix__g" fill="#fff">
+                <use xlink:href="#prefix__e"/>
+            </mask>
+            <path fill="url(#prefix__f)" d="M1.459 9.493V.564v8.929z" mask="url(#prefix__g)"/>
+        </g>
+        <path stroke="#CCC" stroke-width="4.95" d="M105.459 27.73L105.459 18.801"/>
+    </g>
+</svg>

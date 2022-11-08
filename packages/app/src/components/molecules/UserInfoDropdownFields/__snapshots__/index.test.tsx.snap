@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserInfoDropdownFields should have appropriate label for each kinds: country label 1`] = `"국가"`;
+
+exports[`UserInfoDropdownFields should have appropriate label for each kinds: language label 1`] = `"언어"`;
+
+exports[`UserInfoDropdownFields should have appropriate label for each kinds: purpose label 1`] = `"용도"`;
+
+exports[`UserInfoDropdownFields should have appropriate placeholder for each kinds: country placeholder 1`] = `"국가를 선택해주세요"`;
+
+exports[`UserInfoDropdownFields should have appropriate placeholder for each kinds: language placeholder 1`] = `"언어를 선택해주세요"`;
+
+exports[`UserInfoDropdownFields should have appropriate placeholder for each kinds: purpose placeholder 1`] = `"용도를 선택해주세요"`;

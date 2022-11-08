@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="87" height="82" viewBox="0 0 87 82">
+    <g fill="none" fill-rule="evenodd" transform="translate(.246)">
+        <circle cx="64.255" cy="19.562" r="9.267" stroke="silver" stroke-width="3"/>
+        <path fill="silver" fill-rule="nonzero" d="M36.322 0c8.479 0 16.28 2.905 22.46 7.775-1.484.679-2.814 1.633-3.927 2.797-5.213-3.76-11.614-5.974-18.533-5.974-17.52 0-31.724 14.203-31.724 31.724 0 17.52 14.203 31.724 31.724 31.724 17.52 0 31.724-14.203 31.724-31.724 0-1.582-.116-3.137-.34-4.656 1.578-.464 3.028-1.223 4.288-2.215.427 2.224.65 4.522.65 6.87 0 20.06-16.262 36.323-36.322 36.323C16.262 72.644 0 56.382 0 36.322 0 16.262 16.262 0 36.322 0z"/>
+        <path stroke="silver" stroke-width="6" d="M63.667 58.715L84.035 79.084"/>
+        <path stroke="silver" stroke-width="2.5" d="M18.445 21.332L18.445 53.516 57.618 53.516"/>
+        <path stroke="silver" stroke-dasharray="4 2" stroke-width="1.5" d="M24.502 37.48v10.55h32.266V37.373l-11.08-11.08L34.5 37.481l-4.993-4.993-5.006 4.993z"/>
+        <g stroke="silver" stroke-width="2">
+            <path d="M0.352 0L8.057 7.705" transform="translate(60.117 15.424)"/>
+            <path d="M0.352 0L8.057 7.705" transform="translate(60.117 15.424) matrix(-1 0 0 1 8.409 0)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12">
+    <g fill="#979797" fill-rule="evenodd">
+        <path fill-rule="nonzero" d="M9.75 2.25V12H0V2.25h9.75zM8.625 3.375h-7.5v7.5h7.5v-7.5z" transform="translate(.5)"/>
+        <path d="M1.5 0H12V1.125H1.5z" transform="translate(.5)"/>
+        <path d="M6.75 5.25L16.125 5.25 16.125 6.375 6.75 6.375z" transform="translate(.5) rotate(-90 11.438 5.812)"/>
+    </g>
+</svg>

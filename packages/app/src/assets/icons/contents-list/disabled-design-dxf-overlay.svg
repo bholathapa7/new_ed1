@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="15" viewBox="0 0 44 15">
+    <defs>
+        <path id="0xymfnggya" d="M7.848 0L0 4.688 7.848 9.375 15.625 4.688z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g fill="#E1CEE9" fill-rule="nonzero">
+                    <path d="M3.285 10.322c.713 0 1.35-.093 1.912-.28.561-.187 1.024-.44 1.39-.757.365-.318.667-.698.907-1.142.239-.444.41-.911.515-1.403.104-.491.157-1.02.157-1.585 0-1.662-.422-2.937-1.266-3.824C6.056.444 4.855 0 3.298 0H.231v10.322h3.054zM3.09 8.874H1.954V1.462h1.161c1.027 0 1.827.284 2.402.854.574.57.86 1.516.86 2.839 0 2.48-1.095 3.719-3.288 3.719zm7.634 1.448l1.397-2.414.874-1.566h.052c.479.844.779 1.366.9 1.566l1.41 2.414h1.997l-3.315-5.298L17.183 0H15.16l-1.265 2.245c-.54.948-.823 1.448-.849 1.5h-.052c-.096-.182-.237-.441-.424-.776s-.32-.577-.398-.724L10.919 0H8.883l3.132 5.024-3.301 5.298h2.01zm9.5 0v-4.45h4.346V4.424h-4.345v-2.95h4.854V0h-6.577v10.322h1.723z" transform="translate(-146 -565) translate(145 565) translate(19.516 2.344)"/>
+                </g>
+                <g>
+                    <g transform="translate(-146 -565) translate(145 565) translate(.766 2.93)">
+                        <mask id="n5pol7afhb" fill="#fff">
+                            <use xlink:href="#0xymfnggya"/>
+                        </mask>
+                        <use fill="#E1CEE9" xlink:href="#0xymfnggya"/>
+                        <path stroke="#FFF" stroke-linecap="square" stroke-width=".5" d="M5.025 7.87C6.457 6 7.84 4.667 9.174 3.875c1.334-.793 2.735-1.114 4.203-.964" mask="url(#n5pol7afhb)" transform="rotate(-1.044 9.2 5.372)"/>
+                        <path stroke="#FFF" stroke-linecap="square" stroke-width=".5" d="M2.265 5.922c1.433-1.845 2.667-3.065 3.7-3.661 1.034-.596 2.5-.931 4.4-1.006" mask="url(#n5pol7afhb)" transform="rotate(-1.804 6.315 3.589)"/>
+                        <path stroke="#FFF" stroke-linecap="square" stroke-width=".5" d="M2.388 2.885c1.4-.062 2.89.406 4.47 1.405 1.58 1 2.838 2.268 3.773 3.806" mask="url(#n5pol7afhb)" transform="rotate(-.539 6.51 5.488)"/>
+                        <path stroke="#FFF" stroke-linecap="square" stroke-width=".5" d="M4.792.672c1.832.177 3.539.784 5.12 1.823 1.582 1.039 2.779 2.337 3.59 3.896" mask="url(#n5pol7afhb)" transform="rotate(-1.532 9.146 3.532)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
