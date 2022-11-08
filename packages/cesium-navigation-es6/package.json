@@ -12,7 +12,8 @@
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
     "markdown-it": "^8.4.2",
-    "markdown-it-sanitizer": "^0.4.3"
+    "markdown-it-sanitizer": "^0.4.3",
+    "undefined": "/home/reube/Desktop/angelswing/new_ed1"
   },
   "deprecated": false,
   "description": "cesium-navigation-es6",

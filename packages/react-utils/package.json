@@ -31,5 +31,8 @@
   "peerDependencies": {
     "react": ">16.13"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "undefined": "/home/reube/Desktop/angelswing/new_ed1"
+  }
 }

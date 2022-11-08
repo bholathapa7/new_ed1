@@ -22,5 +22,8 @@
     "typescript": ">=3.5"
   },
   "private": true,
-  "typings": "src/index.d.ts"
+  "typings": "src/index.d.ts",
+  "dependencies": {
+    "undefined": "/home/reube/Desktop/angelswing/new_ed1"
+  }
 }
