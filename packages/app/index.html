@@ -1,13 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+    <title>Angelswing</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Cache-control" content="no-store, private">
+    <meta http-equiv="Pragma" content="no-store, private">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <base href="/">
+    <!-- External CSSs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <!-- CSS reset -->
+    <style>
+      /**
+       * Customized reset css based on
+       * html5doctor.com Reset Stylesheet
+       */
+
+      :root {
+        --color-theme-primary: #1f4782;
+        --color-theme-primary-lighter: #2b4877;
+        --color-theme-primary-lightest: #299dd2;
+        --color-theme-secondary: #a2b2ca;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Noto Sans KR', sans-serif;
+      }
+
+      input, button, textarea {
+        border:0;
+        outline:0;
+        font-size:100%;
+        vertical-align:baseline;
+      }
+
+      html, body, div, span, object, iframe,
+      h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+      abbr, address, cite, code,
+      del, dfn, em, img, ins, kbd, q, samp,
+      small, strong, sub, sup, var,
+      b, i,
+      dl, dt, dd, ol, ul, li,
+      fieldset, form, a, label, legend,
+      table, caption, tbody, tfoot, thead, tr, th, td,
+      article, aside, canvas, details, figcaption, figure,
+      footer, header, hgroup, menu, nav, section, summary,
+      time, mark, audio, video {
+        border:0;
+        outline:0;
+        font-size:100%;
+        vertical-align:baseline;
+        background:transparent;
+      }
+
+      body {
+        line-height:1;
+      }
+
+      article,aside,details,figcaption,figure,
+      footer,header,hgroup,menu,nav,section {
+        display:block;
+      }
+
+      nav ul {
+        list-style:none;
+      }
+
+      blockquote, q {
+        quotes:none;
+      }
+
+      blockquote:before, blockquote:after,
+      q:before, q:after {
+        content:'';
+        content:none;
+      }
+
+      a {
+        font-size:100%;
+        vertical-align:baseline;
+        background:transparent;
+      }
+
+      /* change colours to suit your needs */
+      ins {
+        background-color:#ff9;
+        color:#000;
+        text-decoration:none;
+      }
+
+      /* change colours to suit your needs */
+      mark {
+        background-color:#ff9;
+        color:#000;
+        font-style:italic;
+        font-weight:bold;
+      }
+
+      del {
+        text-decoration: line-through;
+      }
+
+      abbr[title], dfn[title] {
+        border-bottom:1px dotted;
+        cursor:help;
+      }
+
+      table {
+        border-collapse:collapse;
+        border-spacing:0;
+      }
+
+      /* change border colour to suit your needs */
+      hr {
+        display:block;
+        height:1px;
+        border:0;
+        border-top:1px solid #cccccc;
+      }
+
+      input, select {
+        vertical-align:middle;
+      }
+      #ctxsort-portal-content-list-item {
+        min-width: 306px;
+        opacity: 0.6;
+        background-color: #fbfbfb;
+      }
+      #ctxsort-portal-content-group {
+        min-width: 270px;
+        opacity: 0.6;
+        background-color: #fbfbfb;
+      }
+      .ctxsort-contentlistitem-owner-active::after {
+        content: '';
+        z-index: 10;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0px 0px 0px 2.5px #afbcd1 inset;
+      }
+      .ctxsort-owner-active::after {
+        content: '';
+        z-index: 10;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0px 2.5px 0px 0px #afbcd1 inset;
+      }
+      .ctxsort-parent-active::after {
+        content: '';
+        z-index: 10;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 100%;
+        height: 2.5px;
+        box-shadow: 0px 2.5px 0px 0px #afbcd1 inset;
+      }
+    </style>
+
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+       <div style="height: 100vh; display:flex;justify-content:center; align-items:center">
+        <svg style="transform: scale(3);" width="23" height="17" xmlns="http://www.w3.org/2000/svg">
+          <path d="M22.16 0v17h-4.54v-2.97l-7.3-.03 4.2-4.45 3.09-.02v-4.8l-5.52 5.73-3.7 3.89-.47.49A7.24 7.24 0 010 16.2l7.89-8.26 2.7-2.82 2.74-2.85A7.25 7.25 0 0118.6 0h3.55z" fill="#B1B1B1" fill-rule="evenodd"></path>
+        </svg> 
+      </div>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
